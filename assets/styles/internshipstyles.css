@@ -1,0 +1,104 @@
+@font-face {
+    font-family: "divergent";
+    src: url("assets/DIVERGENT.ttf") format("ttf");
+}
+
+nav {
+    padding-top: 40px;
+    padding-left: 38px;
+    justify-content: space-between;
+
+}
+
+.tombol{
+    position: absolute;
+    top: 50px;
+    right: 38px;
+}
+nav button{
+    width: 120px;
+    height: 50px;
+    background: #016081;
+    clip-path: polygon(25% 0%, 100% 0, 100% 40%, 75% 100%, 0 100%, 0 40%);
+    box-shadow: 3px 2px 4px #FFFFFF;
+}
+
+h1 {
+    background: linear-gradient(174.23deg, #F8DC75 1.39%, #383838 85.66%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    top: 205px;
+
+    font-family: "divergent";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 70px;
+
+    text-shadow: 3px 4px 5px rgba(251, 251, 251, 0.25);
+
+    margin-bottom: 130px;
+
+
+  }
+
+
+.background{
+    background: linear-gradient(4.62deg, #016081 -21.78%, #17161B 105.14%);
+    position: absolute;
+    right: 0px;
+    height: 1157px;
+    left: 0px;
+    top: 0px;
+
+   
+}
+main button img{
+    width: 100px;
+}
+main button{
+    margin-left: 85px;
+    width: 150px;
+    height: 500px;
+    clip-path: polygon(0 17%, 50% 0, 100% 17%, 100% 83%, 50% 100%, 0 83%);
+    background: linear-gradient(132.87deg, rgba(255, 255, 255, 0.05) -98.25%, rgba(255, 255, 255, 0.0106407) 94.57%, rgba(255, 255, 255, 0) 147.46%);
+    border-radius: 21px;
+    backdrop-filter: blur(40px);
+}
+
+
+
+.dauntless{
+    
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px -4px 50px #CF7E17, inset 0px 4px 12px rgba(0, 0, 0, 0.25);
+
+}
+.erudite{
+    
+
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px -4px 50px #004386, inset 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.amity{
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px -4px 50px #C42D01, inset 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.abnegation{
+    
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px -4px 50px #808080, inset 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+.candor{
+   
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), inset 0px -4px 50px #010101, inset 0px 4px 12px rgba(0, 0, 0, 0.25);
+}
+
+main button:hover{
+    background: linear-gradient(132.87deg, #FFFFFF -98.25%, rgba(255, 255, 255, 0.212814) 94.57%, rgba(255, 255, 255, 0) 147.46%);
+    box-shadow: none;
+}
+
+
